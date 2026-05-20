@@ -47,14 +47,19 @@ This project uses a personally maintained workout dataset stored in an Excel fil
 
 The original dataset has not been uploaded to this repository because it contains personal workout records and private fitness tracking data.
 
-A sample dataset structure is shown below for reference purposes only:
+The dataset structure includes exercise-level workout tracking with the following columns:
 
-| Date | Exercise | Sets | Reps | Weight_kg | Duration_min |
-|------|-----------|------|------|------------|---------------|
-| 2026-05-18 | Bench Press | 4 | 8 | 75 | 90 |
-| 2026-05-18 | Squat | 5 | 5 | 100 | 110 |
+| Date | Exercise | Muscle_Group | Sets | Reps | Weight_kg | Duration_min | Body_Weight |
+|------|-----------|--------------|------|------|------------|---------------|--------------|
+| 12-May-2026 | Incline Bench Press | Chest | 1 | 12 | 55 | 4.8 | 71.5 |
+| 12-May-2026 | Incline Bench Press | Chest | 2 | 10 | 65 | 4.8 | 71.5 |
+| 12-May-2026 | Cable Fly | Chest | 1 | 15 | 25 | 4.8 | 71.5 |
+| 12-May-2026 | Shoulder Press | Shoulders | 1 | 10 | 40 | 5.1 | 71.5 |
+
+This sample is provided only to demonstrate the dataset structure used for analysis.
 
 ---
+
 
 # Installation
 
